@@ -85,7 +85,7 @@ gantt
 
     section Pilot & Scale
     UAT & Shadow Run                          :2024-01, 2024-04
-    Portfolio Migration (Target: 750 Cr)      :2024-04, 2025-10
+    Portfolio Migration (Target 750 Cr)       :2024-04, 2025-10
 
     section Optimization
     Cross-Sell Engine Tuning                  :2025-06, 2026-03
