@@ -1,7 +1,3 @@
-Here is the revised `README.md` with the necessary additions. The changes explicitly define the behavioral beta, establish the baseline cross-sell rate, and highlight the rapid timeline for achieving the 50% metric.
-
-***
-
 # 🏦 HNI Portfolio Growth Strategy & Diagnostic Engine
 **Federal Bank (Sanitized) | Aug 2022 – Mar 2026**
 
