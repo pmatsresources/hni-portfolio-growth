@@ -1,3 +1,7 @@
+Here is the revised `README.md` with the necessary additions. The changes explicitly define the behavioral beta, establish the baseline cross-sell rate, and highlight the rapid timeline for achieving the 50% metric.
+
+***
+
 # 🏦 HNI Portfolio Growth Strategy & Diagnostic Engine
 **Federal Bank (Sanitized) | Aug 2022 – Mar 2026**
 
@@ -9,7 +13,7 @@
 ## 📑 1. The Business Situation & Strategy
 Retail wealth management often falls into the trap of indexing heavily on gross Asset Under Management (AUM) acquisition, masking the actual unit economics and servicing costs of high-maintenance clients. 
 
-Prior to this initiative, the HNI strategy relied on qualitative "gut feelings" from Relationship Managers (RMs). This created a critical operational bottleneck: high variance in AUM forecasting and a stalled cross-sell rate. 
+Prior to this initiative, the HNI strategy relied on qualitative "gut feelings" from Relationship Managers (RMs). This created a critical operational bottleneck: high variance in AUM forecasting and a stalled cross-sell rate (**historically hovering at a baseline of just 12–15%**). 
 
 **The Execution Strategy:** 
 We treated the HNI portfolio as a distinct P&L entity. By integrating quantitative financial modeling with qualitative behavioral profiling (validated through 500+ direct customer interviews), we mapped the exact decision triggers of our HNI base. This allowed us to build portfolio diagnostics and variance tracking engines that transformed raw data into predictive, cross-sell actions.
@@ -17,7 +21,7 @@ We treated the HNI portfolio as a distinct P&L entity. By integrating quantitati
 ### 🏆 Key Performance Outcomes
 *   **Scale:** Grew the managed portfolio to **INR 750 Cr AUM** (145% YoY).
 *   **Market Penetration:** Acquired 1,000+ new high-value accounts.
-*   **Unit Economics:** Achieved a **50% asset cross-sell rate** through predictive product placement.
+*   **Unit Economics:** Achieved a **50% asset cross-sell rate** through predictive product placement. Notably, this leap from the ~15% baseline was achieved in **under 10 months** of active engine tuning (June 2025 – March 2026).
 *   **Capital Allocation:** Secured **INR 10–15 Cr** in internal board-level funding by proving deterministic ROI.
 
 ---
@@ -29,7 +33,7 @@ We built a proprietary scoring model in **IBM Planning Analytics (TM1)** and **A
 
 $$CPS = \sum_{t=1}^{n} \left( \frac{NII_t + NFI_t - OpEx_t}{(1 + WACC)^t} \right) \times \beta_{behavioral}$$
 
-*(Where $CPS$ is Client Profitability Score, $NII$ is Net Interest Income, $NFI$ is Non-Fund Income, $OpEx$ is Servicing Cost, and $\beta_{behavioral}$ is the risk profile multiplier.)*
+*(Where $CPS$ is Client Profitability Score, $NII$ is Net Interest Income, $NFI$ is Non-Fund Income, and $OpEx$ is Servicing Cost. To eliminate "black-box" subjectivity, the risk multiplier, $\beta_{behavioral}$, is deterministically calibrated using a weighted index of quantifiable CRM inputs—such as digital login velocity, liquidity events, inbound request frequency, and historical churn indicators—mapped to standard deviation bands.)*
 
 ---
 
